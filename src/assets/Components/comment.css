@@ -1,0 +1,58 @@
+.sendbox{
+    width: 343px;
+    height: 189px;
+    border-radius: 8px;
+    background: var(--White, #FFF);
+    margin-top: 16px;
+    margin-bottom: 32px;
+    padding-top: 5px;
+}
+.combox{
+    width: 311px;
+    height: 96px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Gray, #E9EBF0);
+    background: var(--White, #FFF);
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.personal{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    width: 311px;
+    height: 48px;
+    margin-top: 16px;
+    margin-left: 16px;
+    align-items: center;
+}
+.button3{
+    width: 104px;
+    height: 48px;
+    border-radius: 8px;
+    background: var(--Moderate-Blue, #5357B6);
+}
+h2{
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-weight: 400;
+}
+input {
+    color:  #67727E;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 45px;
+    padding-left: 24px;
+    outline: none;
+}
+input::placeholder {
+    color:#67727E;  
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}

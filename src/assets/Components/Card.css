@@ -1,0 +1,101 @@
+.box1 {
+    width: 343px;
+    height: 256px;
+    margin-top: 32px;
+    border-radius: 8px;
+    background: var(--White, #FFF);
+    padding-top: 20px;
+  }
+  .boxheader {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 17px;
+    margin-left: 16px;
+  }
+  .name {
+    color: #334253;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .dayago {
+    color: #67727E;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .lorem {
+    display: flex;
+    align-items: center;
+    width: 311px;
+    height: 120px;
+    color: #67727E;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+  .divbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #efefef;
+    gap: 8px;
+    margin-top: 17px;
+    margin-left: 17px;
+  }
+  .number {
+    width: 30px;
+    height: 19px;
+    color: var(--Moderate-Blue, #5357B6);
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+  }
+  button {
+    border: none;
+    cursor: pointer;
+  }
+  .plus {
+    width: 11px;
+    height: 11px;
+  }
+  .minus {
+    width: 11px;
+    height: 8px;
+  }
+  .replydiv {
+    width: 66px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 25px;
+    background: none;
+    cursor: pointer;
+  }
+  .reply {
+    color: var(--Moderate-Blue, #5357B6);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: none;
+  }
+  .boxfooter {
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+  }
